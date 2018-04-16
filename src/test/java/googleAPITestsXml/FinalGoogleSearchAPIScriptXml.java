@@ -30,7 +30,7 @@ public class FinalGoogleSearchAPIScriptXml {
 	       @BeforeTest
 	       	public void getPropertiesData() throws IOException
 	       		{
-	    	   		FileInputStream fis = new FileInputStream("C:\\Users\\apandhe\\workspace\\RESTApiAutomationPOC\\env.properties");
+	    	   		FileInputStream fis = new FileInputStream("C:\\Users\\Administrator\\.jenkins\\workspace\\mavenAPITestsGITbuild\\env.properties");
 	    	   		prop.load(fis);
 	       		}
 		

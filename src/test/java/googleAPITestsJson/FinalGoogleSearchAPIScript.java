@@ -27,7 +27,7 @@ public class FinalGoogleSearchAPIScript {
 	       @BeforeTest
 	       	public void getPropertiesData() throws IOException
 	       		{
-	    	   		FileInputStream fis = new FileInputStream("Rest-API\\env.properties");
+	    	   		FileInputStream fis = new FileInputStream("C:\\Users\\Administrator\\.jenkins\\workspace\\mavenAPITestsGITbuild\\env.properties");
 	    	   		prop.load(fis);
 	       		}
 		

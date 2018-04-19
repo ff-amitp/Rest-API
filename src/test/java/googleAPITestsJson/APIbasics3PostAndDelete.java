@@ -23,7 +23,7 @@ public class APIbasics3PostAndDelete {
 	@BeforeTest
 	public void getData() throws IOException
 	{
-		FileInputStream fis = new FileInputStream("C:\\Users\\Administrator\\.jenkins\\workspace\\mavenAPITestsGITbuild\\env.properties");
+		FileInputStream fis = new FileInputStream(System.getProperty ("user.dir") + "\\env.properties");
 		prop.load(fis);
 	}
 	

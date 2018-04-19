@@ -25,7 +25,7 @@ public class FinalTwitterAPIscript {
 			@BeforeTest
 	       	public void getPropertiesData() throws IOException
 	       		{
-	    	   		FileInputStream fis = new FileInputStream("C:\\Users\\Administrator\\.jenkins\\workspace\\mavenAPITestsGITbuild\\env.properties");
+	    	   		FileInputStream fis = new FileInputStream(System.getProperty ("user.dir") + "\\env.properties");
 	    	   		prop.load(fis);
 	       		}
 			
